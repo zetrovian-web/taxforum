@@ -1,14 +1,43 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국절세포럼</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header>
+        <nav>
+            <a href="#home" class="logo">한국절세포럼</a>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">WHO WE ARE</a></li>
+                <li class="dropdown">
+                    <a href="#services">WHAT WE DO</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">[상속] CEO 상속프로그램</a></li>
+                        <li><a href="#">[상속] 개인 상속플랜</a></li>
+                        <li><a href="#">[법인] 세금환급 | 절세플랜</a></li>
+                        <li><a href="#">[소송] 조세불복</a></li>
+                    </ul>
+                </li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle-button">Toggle Dark/Light Mode</button>
+            <div class="auth-links">
+                <a href="#">로그인</a> / <a href="#">회원가입</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>한국절세포럼에 오신 것을 환영합니다.</h1>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
 </body>
 </html>
